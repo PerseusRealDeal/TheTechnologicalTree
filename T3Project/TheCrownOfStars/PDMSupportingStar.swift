@@ -1,8 +1,8 @@
 //
 //  PDMSupportingStar.swift
-//  Version: 2.0.1
+//  Version: 2.0.4
 //
-//  The Darkness Support Classes (PerseusUISystemKit previously)
+//  The Darkness Support (PerseusUISystemKit previously)
 //
 //
 //  For iOS and macOS only. Use Stars to adopt for the specifics you need.
@@ -43,7 +43,7 @@
 // swiftlint:disable file_length
 //
 
-import PerseusDarkMode
+// import PerseusDarkMode
 
 #if canImport(UIKit)
 import UIKit

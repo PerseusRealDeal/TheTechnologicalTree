@@ -8,18 +8,10 @@
 //
 
 import UIKit
-import ConsolePerseusLogger
 
-import class PerseusDarkMode.PerseusLogger
+// MARK: - The Start Line
 
-// swiftlint:disable type_name
-typealias applog = ConsolePerseusLogger.PerseusLogger // For test bundle, log for main.
-typealias dmlog = PerseusDarkMode.PerseusLogger
-// swiftlint:enable type_name
-
-// MARK: - Log Report
-
-typealias LogLevel = ConsolePerseusLogger.PerseusLogger.Level
+typealias LogLevel = PerseusLogger.Level
 
 func report(_ text: String, _ type: LogLevel, _ localTime: LocalTime, _ owner: PIDandTID) {
     report.lastMessage = "[\(localTime.date)] [\(localTime.time)]\r\n> \(text)"
@@ -28,15 +20,10 @@ func report(_ text: String, _ type: LogLevel, _ localTime: LocalTime, _ owner: P
 let report = LogReport()
 log.customActionOnMessage = report(_:_:_:_:)
 
-// MARK: - Logger
-
-// log.turned = .off
-// dmlog.turned = .off
-
 var loadedInfo = ""
 
 if let path = Bundle.main.url(forResource: "CPLConfig", withExtension: "json") {
-    if log.loadConfig(path), dmlog.loadConfig(path) {
+    if log.loadConfig(path) {
         loadedInfo = "Options successfully loaded!"
     } else {
         loadedInfo = "Failed to load options!"
@@ -48,7 +35,7 @@ if let path = Bundle.main.url(forResource: "CPLConfig", withExtension: "json") {
 log.message(loadedInfo)
 log.message("The app's start point...", .info)
 
-// MARK: - Make the app run
+// MARK: - The Run
 
 let appDelegateClass: AnyClass = NSClassFromString("TestingAppDelegate") ?? AppDelegate.self
 let delegateClassName = NSStringFromClass(appDelegateClass)

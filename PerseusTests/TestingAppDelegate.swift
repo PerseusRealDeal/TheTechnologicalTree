@@ -18,8 +18,6 @@ class TestingAppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
         launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        applog.turned = .off
-
         var loadedInfo = ""
 
         if let path = Bundle.main.url(forResource: "CPLConfig", withExtension: "json") {

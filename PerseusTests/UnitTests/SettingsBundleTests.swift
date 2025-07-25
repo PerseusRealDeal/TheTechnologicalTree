@@ -12,8 +12,6 @@
 import XCTest
 @testable import Perseus
 
-import PerseusDarkMode
-
 class SettingsBundleTests: XCTestCase {
 
     private let defaults = AppGlobals.userDefaults

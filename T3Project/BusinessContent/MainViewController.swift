@@ -9,9 +9,6 @@
 
 import UIKit
 
-import ConsolePerseusLogger
-import PerseusDarkMode
-
 class MainViewController: UIViewController {
 
     @IBOutlet private(set) weak var greetingsLabel: UILabel!

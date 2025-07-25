@@ -15,12 +15,12 @@
 
 > Swift Package Manager.
 
-[![ConsolePerseusLogger](http://img.shields.io/:ConsolePerseusLogger-1.5.0-green.svg)](https://github.com/perseusrealdeal/ConsolePerseusLogger.git)
-[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-2.0.3-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode.git)
+[![ConsolePerseusLogger](http://img.shields.io/:ConsolePerseusLogger-1.5.1-green.svg)](https://github.com/perseusrealdeal/ConsolePerseusLogger.git)
+[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-2.0.4-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode.git)
 
 > May be interesting to add: 
 
-[![PerseusGeoKit](http://img.shields.io/:PerseusGeoKit-1.0.3-green.svg)](https://github.com/perseusrealdeal/PerseusGeoKit.git)
+[![PerseusGeoKit](http://img.shields.io/:PerseusGeoKit-1.0.4-green.svg)](https://github.com/perseusrealdeal/PerseusGeoKit.git)
 
 # In brief > Idea to use, the Why
 
@@ -52,8 +52,8 @@
 
 | Type    | Name                                                                                                                                                                  | License |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| Package | [ConsolePerseusLogger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.5.0](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.5.0) | MIT     |
-| Package | [PerseusDarkMode](https://github.com/perseusrealdeal/PerseusDarkMode) / [2.0.3](https://github.com/perseusrealdeal/PerseusDarkMode/releases/tag/2.0.3)                | MIT     |
+| Package | [ConsolePerseusLogger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.5.1](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.5.1) | MIT     |
+| Package | [PerseusDarkMode](https://github.com/perseusrealdeal/PerseusDarkMode) / [2.0.4](https://github.com/perseusrealdeal/PerseusDarkMode/releases/tag/2.0.3)                | MIT     |
 
 # Third-party software
 
