@@ -10,7 +10,6 @@
 		2E1272222E33551800E74E62 /* CPLStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1272212E33551800E74E62 /* CPLStar.swift */; };
 		2E1272242E33552400E74E62 /* PDMStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1272232E33552400E74E62 /* PDMStar.swift */; };
 		2E5E3FBF2CA2AC1C00D024AB /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */; };
-		2E8F23D92E04773000521044 /* LogReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F23D82E04773000521044 /* LogReport.swift */; };
 		2EAA4CB82DF2B45600E8E81A /* PDMSupportingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA4CB72DF2B45600E8E81A /* PDMSupportingStar.swift */; };
 		2EDC61052E03D8EE00515AA5 /* CPLConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC61042E03D8EE00515AA5 /* CPLConfig.json */; };
 		4B1483E52912892C0013B76E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1483E42912892C0013B76E /* AppDelegate.swift */; };
@@ -63,7 +62,6 @@
 		2E1272212E33551800E74E62 /* CPLStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPLStar.swift; sourceTree = "<group>"; };
 		2E1272232E33552400E74E62 /* PDMStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMStar.swift; sourceTree = "<group>"; };
 		2E5E3FBE2CA2AC1C00D024AB /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = swiftlint.yml; path = .github/workflows/swiftlint.yml; sourceTree = "<group>"; };
-		2E8F23D82E04773000521044 /* LogReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogReport.swift; sourceTree = "<group>"; };
 		2EAA4CB72DF2B45600E8E81A /* PDMSupportingStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMSupportingStar.swift; sourceTree = "<group>"; };
 		2EAA4CB92DF2E14200E8E81A /* APPROBATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APPROBATION.md; sourceTree = "<group>"; };
 		2EB587422C9FB16A00D7B55B /* TestPlanStarted.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlanStarted.xctestplan; sourceTree = "<group>"; };
@@ -242,7 +240,6 @@
 				4B6F98762927E81000ADB03A /* LocalizationExtentions.swift */,
 				4B5921D12B6648CA00D312B9 /* JsonDataDictionaryGift.swift */,
 				4B9DEDF62B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift */,
-				2E8F23D82E04773000521044 /* LogReport.swift */,
 			);
 			path = Gifts;
 			sourceTree = "<group>";
@@ -445,7 +442,6 @@
 				4BC7F11529F66F8100851FEA /* AppGlobals.swift in Sources */,
 				4B9DEDFB2B6C851A003EE547 /* AppLinks.swift in Sources */,
 				4BFA5FE02989A69E00AC09F5 /* TheMenu.swift in Sources */,
-				2E8F23D92E04773000521044 /* LogReport.swift in Sources */,
 				4B1483E72912892C0013B76E /* ViewController.swift in Sources */,
 				4B9DEDF72B6C7A9A003EE547 /* CurrentSystemLanguageGift.swift in Sources */,
 				2EAA4CB82DF2B45600E8E81A /* PDMSupportingStar.swift in Sources */,
