@@ -11,7 +11,6 @@
 		2E12721D2E33512700E74E62 /* CPLStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12721C2E33512700E74E62 /* CPLStar.swift */; };
 		2E12721F2E33513300E74E62 /* PDMStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12721E2E33513300E74E62 /* PDMStar.swift */; };
 		2E5852472C91D75900A15AF4 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E5852462C91D75900A15AF4 /* CHANGELOG.md */; };
-		2E8F23DB2E0484FB00521044 /* LogReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F23DA2E0484FB00521044 /* LogReport.swift */; };
 		2E8F23DE2E04856300521044 /* CPLConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F23DD2E04856300521044 /* CPLConfig.json */; };
 		4B4B3192293E293D0001262E /* PDMSupportingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3191293E293D0001262E /* PDMSupportingStar.swift */; };
 		4B5A9B95291393CD002062AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A9B94291393CD002062AC /* AppDelegate.swift */; };
@@ -59,7 +58,6 @@
 		2E12721E2E33513300E74E62 /* PDMStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMStar.swift; sourceTree = "<group>"; };
 		2E5852462C91D75900A15AF4 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		2E89440E2DF475A600517957 /* APPROBATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APPROBATION.md; sourceTree = "<group>"; };
-		2E8F23DA2E0484FB00521044 /* LogReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogReport.swift; sourceTree = "<group>"; };
 		2E8F23DD2E04856300521044 /* CPLConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CPLConfig.json; sourceTree = "<group>"; };
 		4B4B3191293E293D0001262E /* PDMSupportingStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMSupportingStar.swift; sourceTree = "<group>"; };
 		4B5A9B91291393CD002062AC /* Perseus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perseus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,14 +132,6 @@
 			path = UnitTests;
 			sourceTree = "<group>";
 		};
-		2E8F23DC2E04854400521044 /* Gifts */ = {
-			isa = PBXGroup;
-			children = (
-				2E8F23DA2E0484FB00521044 /* LogReport.swift */,
-			);
-			path = Gifts;
-			sourceTree = "<group>";
-		};
 		2EE0C6012DF56F30003116EB /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +196,6 @@
 		4B5A9BB4291505BD002062AC /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				2E8F23DC2E04854400521044 /* Gifts */,
 				4B5A9BB5291505C6002062AC /* Translations */,
 				4BA0C764291F60A60011D359 /* Localization */,
 				4BA0C757291E4B8C0011D359 /* Settings.bundle */,
@@ -405,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E8F23DB2E0484FB00521044 /* LogReport.swift in Sources */,
 				4B5A9B97291393CD002062AC /* MainViewController.swift in Sources */,
 				4BA0C755291E3B5F0011D359 /* UserPreferences.swift in Sources */,
 				2E12721D2E33512700E74E62 /* CPLStar.swift in Sources */,

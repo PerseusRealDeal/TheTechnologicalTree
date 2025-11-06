@@ -11,14 +11,8 @@ import UIKit
 
 // MARK: - The Start Line
 
-typealias LogLevel = PerseusLogger.Level
-
-func report(_ text: String, _ type: LogLevel, _ localTime: LocalTime, _ owner: PIDandTID) {
-    report.lastMessage = "[\(localTime.date)] [\(localTime.time)]\r\n> \(text)"
-}
-
-let report = LogReport()
-log.customActionOnMessage = report(_:_:_:_:)
+let report = PerseusLogger.Report()
+log.customActionOnMessage = report.report(_:_:_:_:_:_:)
 
 var loadedInfo = ""
 

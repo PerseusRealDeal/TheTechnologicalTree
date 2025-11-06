@@ -1,7 +1,5 @@
 # <App's Name> — Xcode 14.2+
 
-> This is the custom project template for a great iOS app.
-
 [![Actions Status](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/main.yml/badge.svg)](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/main.yml)
 [![Style](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/swiftlint.yml/badge.svg)](https://github.com/perseusrealdeal/thetechnologicaltree/actions/workflows/swiftlint.yml)
 ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
@@ -11,33 +9,61 @@
 [![SDK](https://img.shields.io/badge/SDK-UIKit%20-blueviolet.svg)](https://developer.apple.com/documentation/uikit)
 [![License](http://img.shields.io/:License-Unlicense-green.svg)](/LICENSE)
 
+> This is the custom project template for a great iOS app.
+
 ## Dependencies
 
-> Swift Package Manager.
+> The Crown of Stars:
 
-[![ConsolePerseusLogger](http://img.shields.io/:ConsolePerseusLogger-1.5.1-green.svg)](https://github.com/perseusrealdeal/ConsolePerseusLogger.git)
-[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-2.0.4-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode.git)
+[![ConsolePerseusLogger](http://img.shields.io/:ConsolePerseusLogger-1.6.0-green.svg)](https://github.com/perseusrealdeal/ConsolePerseusLogger.git)
+[![PerseusDarkMode](http://img.shields.io/:PerseusDarkMode-2.1.0-green.svg)](https://github.com/perseusrealdeal/PerseusDarkMode.git)
 
 > May be interesting to add: 
 
-[![PerseusGeoKit](http://img.shields.io/:PerseusGeoKit-1.0.4-green.svg)](https://github.com/perseusrealdeal/PerseusGeoKit.git)
-
-# In brief > Idea to use, the Why
-
-> Initial point of development process.
-
-> [!IMPORTANT]
-> Preview Material.
+[![PerseusGeoKit](http://img.shields.io/:PerseusGeoKit-1.1.0-green.svg)](https://github.com/perseusrealdeal/PerseusGeoKit.git)
 
 ## Approbation Matrix
 
-> [`A3 Environment and Approbation`](/APPROBATION.md). [`CHANGELOG`](/CHANGELOG.md) for details.
+> `For details:` [`Approbation and A3 Environment`](/APPROBATION.md) / [`CHANGELOG`](/CHANGELOG.md)
 
-## Build system requirements
+## Our Terms
+
+> [`CPL`](https://github.com/perseusrealdeal/ConsolePerseusLogger.git) stands for `C`onsole `P`erseus `L`ogger.</br>
+> [`PGK`](https://github.com/perseusrealdeal/PerseusGeoKit.git) stands for `P`erseus `G`eo `K`it.</br>
+> [`PDM`](https://github.com/perseusrealdeal/PerseusDarkMode.git) stands for `P`erseus `D`ark `M`ode.</br>
+> `P2P` stands for `P`erson-`to`-`P`erson.</br>
+> [`A3`](https://docs.google.com/document/d/1K2jOeIknKRRpTEEIPKhxO2H_1eBTof5uTXxyOm5g6nQ) stands for `A`pple `A`pps `A`pprobation.</br>
+> [`T3`](https://github.com/perseusrealdeal/TheTechnologicalTree) stands for `T`he `T`echnological `T`ree.
+
+# Contents
+
+* [Introduction](#Introduction)
+* [Build requirements](#Build-requirements)
+* [Software requirements](#Software-requirements)
+* [Gifts](#Gifts)
+* [First-party software](#First-party-software)
+* [Third-party software](#Third-party-software)
+* [Points taken into account](#Points-taken-into-account)
+* [License](#License)
+    * [Other Required Licenses Details](#Other-Required-Licenses-Details)
+* [Credits](#Credits)
+* [Prepared by](#Prepared-by)
+
+# Introduction
+
+> The initial point of development process.
+
+> [!NOTE]
+> In brief, Idea to use, the Why
+
+> [!IMPORTANT]
+> Preview material
+
+# Build requirements
 
 - [macOS Monterey 12.7.6+](https://apps.apple.com/by/app/macos-monterey/id1576738294) / [Xcode 14.2+](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.2/Xcode_14.2.xip)
 
-## Templated Software Requirements
+# Software requirements
 
 - [`Functional Specification`](/REQUIREMENTS.md)
 - Translations [EN](/T3Project/Configuration/Translations/Translation_en.plist), [RU](/T3Project/Configuration/Translations/Translation_ru.plist)
@@ -46,14 +72,14 @@
 
 | Type  | Name                                                                                        | License                            |
 | ----- | ------------------------------------------------------------------------------------------- | ---------------------------------- |
-| Class | [LogReport.swift](https://gist.github.com/PerseusRealDeal/9a4118301b59d43969d8edf5ebc3a571) | [Unlicense](https://unlicense.org) |
+|       |                                                                                             | [Unlicense](https://unlicense.org) |
 
 # First-party software
 
 | Type    | Name                                                                                                                                                                  | License |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| Package | [ConsolePerseusLogger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.5.1](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.5.1) | MIT     |
-| Package | [PerseusDarkMode](https://github.com/perseusrealdeal/PerseusDarkMode) / [2.0.4](https://github.com/perseusrealdeal/PerseusDarkMode/releases/tag/2.0.3)                | MIT     |
+| Package | [ConsolePerseusLogger](https://github.com/perseusrealdeal/ConsolePerseusLogger) / [1.6.0](https://github.com/perseusrealdeal/ConsolePerseusLogger/releases/tag/1.6.0) | MIT     |
+| Package | [PerseusDarkMode](https://github.com/perseusrealdeal/PerseusDarkMode) / [2.1.0](https://github.com/perseusrealdeal/PerseusDarkMode/releases/tag/2.1.0)                | MIT     |
 
 # Third-party software
 
@@ -78,15 +104,18 @@
 - [SwiftLint Rules](/.swiftlint.yml)
 - [Git Config](/.gitignore)
 - [CPL Config](/T3Project/Configuration/CPLConfig.json)
+- SwiftLint shell script as a build phase (SwiftLint preinstallation required)
 
-# Unlicensed Free Software
+# License
 
-- [License](/LICENSE)
+`License:` Unlicensed Free Software
 
-## Required License Notices
+[LICENSE](/LICENSE) for details.
 
-© Mikhail A. Zhigulin of Novosibirsk **for** ConsolePerseusLogger, PerseusDarkMode, PerseusGeoKit</br>
-© PerseusRealDeal **for** ConsolePerseusLogger, PerseusDarkMode, PerseusGeoKit</br>
+## Other Required Licenses Details
+
+© Mikhail A. Zhigulin of Novosibirsk **for** ConsolePerseusLogger, PerseusDarkMode</br>
+© PerseusRealDeal **for** ConsolePerseusLogger, PerseusDarkMode</br>
 © 2025 The SwiftLint Contributors **for** SwiftLint</br>
 © GitHub **for** GitHub Action cirruslabs/swiftlint-action@v1</br>
 
@@ -113,9 +142,26 @@
     <td>tested by</td>
     <td>Persons</td>
 </tr>
+<tr>
+    <td>Artwork</td>
+    <td>expressed by</td>
+    <td>Persons</td>
+</tr>
+<tr>
+    <td>Russian Translation</td>
+    <td>prepared by</td>
+    <td>Persons</td>
+</tr>
+<tr>
+    <td>English Translation</td>
+    <td>prepared by</td>
+    <td>Persons</td>
+</tr>
 </table>
 
-# Editors, prepared by
+# Prepared by
+
+> [!NOTE]
+> Authors, editors, prepared by
 
 > © Mikhail A. Zhigulin of Novosibirsk
-

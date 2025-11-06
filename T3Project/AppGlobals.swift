@@ -17,4 +17,5 @@ struct AppGlobals {
     static let notificationCenter = NotificationCenter.default
 
     // MARK: - Custom Services
+
 }
