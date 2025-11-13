@@ -27,21 +27,19 @@
 
 `Step 1:` Make a new repository based on the template repository with all included branches
 
-`Step 2:` Apply commits from the target branch into the main branch with cherry-pick command
+`Step 2:` Switch the default branch to the target branch—all others should be removed
 
-`Step 3:` Push changes into the main branch then—`the preconfigured project template`—done
+`Step 3:` Rename the target branch as `main` or `master`—`the preconfigured project template`—done
 
 `Step 4:` Protect the main branch making possible adding changes only via pull requesting
 
-`Step 5:` The main branch and the target branch—all others should be removed
+`Step 5:` Create a new branch with the name `v0.0.1`
 
-`Step 6:` Rename the target branch with `v0.0.1`
+`Step 6:` Update the new branch `v0.0.1` for the project specifics
 
-`Step 7:` Update the target branch `v0.0.1` for the project specifics
+`Step 7:` Create a pull request as `v0.0.1`
 
-`Step 8:` Create a pull request as `v0.0.1`
-
-`Step 9:` Merge a pull request with the main branch—`the initial point of development process`—done
+`Step 8:` Merge a pull request with the main branch—`the initial point of development process`—done
 
 # Unlicensed Free Software
 
